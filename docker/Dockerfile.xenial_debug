@@ -1,4 +1,4 @@
-FROM ubuntu:xenial
+FROM ubuntu:xenial-20210416
 # Base image for debug builds.
 # Built manually uploaded as "istionightly/base_debug"
 
