@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM alpine:3.14.4
 
 RUN mkdir -p /usr/local/bin
 ADD start_driver.sh /usr/local/bin/
