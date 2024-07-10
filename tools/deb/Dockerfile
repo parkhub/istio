@@ -1,6 +1,6 @@
 # Base dockerfile containing ubuntu and istio debian.
 # Can be used for testing
-FROM ubuntu:xenial
+FROM ubuntu:xenial-20201014
 
 ADD istio.deb /tmp
 RUN apt-get update && apt-get install -y \
