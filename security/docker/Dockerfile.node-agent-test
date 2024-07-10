@@ -1,4 +1,4 @@
-FROM ubuntu:xenial
+FROM ubuntu:xenial-20201014
 
 ADD node_agent /usr/local/bin/node_agent
 
