@@ -1,4 +1,4 @@
-FROM ubuntu:xenial
+FROM ubuntu:xenial-20210416
 
 ADD istio_ca /usr/local/bin/istio_ca
 
